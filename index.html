@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kairos 3.7</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="shortcut icon" href="/Resources/KAIROS.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Kairos3.7</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav id="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <section class="hero" id="inicio">
+      <h1>Todo es posible si lo puedes creer</h1>
+    </section>
+
+    <section class="about" id="nosotros">
+      <h2>¿Quiénes Somos?</h2>
+      <p>
+        Somos una distribuidora comprometida con el bienestar corporal a través
+        de productos naturales, orgánicos y sostenibles. Nuestra misión es
+        llevar salud y armonía a cada hogar.
+      </p>
+
+      <div class="logo1-grid">
+        <div class="logo1">
+          <img class="Imagen_logo"src="./Resources/portada3.png" alt="Logo_Kairos" />
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <h3 class="titulo3">Descuentos de la semana!</h3>
+    <table class="Tablas">
+      <thead>
+        <tr>
+          <th class="Tabla_cabeza">Producto</th>
+          <th class="Tabla_cabeza">Tipo</th>
+          <th class="Tabla_cabeza">Precio</th>
+          <th class="Tabla_cabeza">Disponibilidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aceite de Lavanda</td>
+          <td>Aceite esencial</td>
+          <td>$12.00</td>
+          <td>Disponible</td>
+        </tr>
+
+        <tr>
+          <td>Jabón de Miel</td>
+          <td>Jabón artesanal</td>
+          <td>$6.50</td>
+          <td>Disponible</td>
+        </tr>
+
+        <tr>
+          <td>Crema de Coco</td>
+          <td>Crema corporal</td>
+          <td>$9.90</td>
+          <td>Agotado</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <section class="products" id="productos">
+      <h2>Marcas con las que trabajamos</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="./Resources/Avon-Logo.png" alt="Aceite esencial" />
+          <h3>Avon</h3>
+          <p>Cosmeticos y cuidado de la piel.</p>
+        </div>
+        <div class="product">
+          <img src="./Resources/Novaventa.png" alt="Jabón artesanal" />
+          <h3>Novaventa</h3>
+          <p>Lo mejor de cada marca.</p>
+        </div>
+        <div class="product">
+          <img src="./Resources/lvel.jpg" alt="Cremas naturales" />
+          <h3>L'vel</h3>
+          <p>Cuidado personal.</p>
+        </div>
+        <div class="product">
+          <img src="./Resources/natura2.png" alt="Cremas naturales" />
+          <h3>Natura</h3>
+          <p>Para los amantes de lo clasico.</p>
+        </div>
+        <div class="product">
+          <img src="./Resources/logo-cyzone.png" alt="Cremas naturales" />
+          <h3>Cyzone</h3>
+          <p>Un poco diferente.</p>
+        </div>
+        <div class="product">
+          <img src="./Resources/esika.png" alt="Cremas naturales" />
+          <h3>Esika</h3>
+          <p>Uno para cada persona</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="contactooo">
+      <section class="contact" id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu correo electrónico" required />
+          <textarea rows="5" placeholder="Tu mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; Kairos 3.7, todos los derechos reservados</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("active");
+      }
+    </script>
+
+
+  </body>
+</html>
